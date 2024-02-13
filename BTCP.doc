@@ -1,0 +1,30 @@
+BUILD  A  TEMPERATURE  CONVERSION                                              
+PROGRAM
+aim:-To explain about  build a temperature conversion program?
+explanation:-
+1.Function Definitions:
+The program starts by defining functions for converting between different temperature units: Celsius to Fahrenheit, Fahrenheit to Celsius, Celsius to Kelvin, Kelvin to Celsius, Fahrenheit to Kelvin, and Kelvin to Fahrenheit. These functions encapsulate the conversion logic for each unit.
+2.Menu Function:
+print_menu() function prints out the menu options for the user to choose from.
+3.Main Program Loop:
+The main() function sets up a loop that keeps running until the user chooses to quit.
+Inside the loop, the menu is printed, and the user is prompted to enter their choice.
+4.User Input Handling:
+The program checks the user's choice. If it's 7, the program quits. If it's between 1 and 6, it proceeds with temperature conversion.
+If the choice is invalid, the program asks the user to enter a valid choice.
+5.Temperature Conversion:
+If the user's choice is valid (between 1 and 6), the program prompts the user to enter the temperature they want to convert.
+The program then tries to convert the input temperature to a float (a numerical value), and if successful, it performs the conversion based on the user's choice using the appropriate conversion function.
+6.Output:
+After performing the conversion, the program prints the result to the user, indicating the original temperature and the converted temperature along with their respective units.
+7.Error Handling:
+If the user enters a non-numerical value for the temperature, the program catches the ValueError exception and prompts the user to enter a valid temperature.
+8.Exiting the Program:
+If the user chooses to quit (option 7), the program prints a goodbye message and exits the loop, ending the program execution.
+9.Main Function Invocation:
+The program then calls the main() function to start the execution of the temperature conversion program.
+10.Execution:
+When the program is executed, it begins by displaying the menu.
+The user selects an option, enters a temperature, and the program converts it accordingly.
+This process repeats until the user chooses to quit.
+By following this step-by-step process, the program provides a user-friendly interface for performing temperature conversions efficietily
